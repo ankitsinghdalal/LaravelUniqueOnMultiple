@@ -1,5 +1,7 @@
 {
     "name": "ankitsinghdalal/laravel-unique-on-multiple",
+    "type": "validator",
+    "version": "1.0.0",
     "description": "This package would serve the purpose of unique validator against multiple columns",
     "keywords": [
         "multiple",
@@ -8,7 +10,6 @@
         "laravel"
     ],
     "homepage": "https://github.com/ankitsinghdalal/LaravelUniqueOnMultiple",
-    "type": "validator",
     "license": "MIT",
     "authors": [
         {
