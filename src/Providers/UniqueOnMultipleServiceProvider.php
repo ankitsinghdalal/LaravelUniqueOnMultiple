@@ -2,6 +2,7 @@
 
 namespace ankitsinghdalal\UniqueOnMultiple\Providers;
 
+use DB;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Validator;
 
