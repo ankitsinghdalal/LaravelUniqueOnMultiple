@@ -1,0 +1,40 @@
+{
+    "name": "ankitsinghdalal/laravel-unique-on-multiple",
+    "description": "This package would serve the purpose of unique validator against multiple columns",
+    "keywords": [
+        "multiple",
+        "unique",
+        "validator",
+        "laravel"
+    ],
+    "homepage": "https://github.com/ankitsinghdalal/LaravelUniqueOnMultiple",
+    "type": "validator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ankit Singh Dalal",
+            "email": "ankitsinghdalal@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "laravel/framework": "^5.8"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "ankitsinghdalal\\UniqueOnMultiple\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ankitsinghdalal\\UniqueOnMultiple\\Providers\\UniqueOnMultipleServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
